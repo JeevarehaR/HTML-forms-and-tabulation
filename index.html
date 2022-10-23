@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">HTML Forms</h1><br>
+    <form action="#" class="form-group" id="form" name="form1" method="get">
+        <div class="form-group">
+            <p id="description">First Name :</p>
+            <input type="text" id="first-name" placeholder="Enter First name" required>
+        </div><br>
+        <div class="form-group">
+            <p id="description">Last Name :</p>
+            <input type="text" id="last-name" placeholder="Enter Last name" required><br>
+        </div><br>
+        <div class="form-group">
+            <p id="description">Address :</p>
+            <textarea id="address" placeholder="Enter Address" cols="30" rows="3"></textarea>
+        </div><br>
+        <div class="form-group">
+            <p id="description">Pincode :</p>
+            <input type="text" id="pincode" placeholder="Enter pincode" required>
+        </div><br>
+        <p id="description">Gender :</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+        <p id="description">Choice of Food :</p>
+        <input type="checkbox" id="food1" name="food" value="South Indian">
+        <label for="food1">South Indian</label>
+        <input type="checkbox" id="food2" name="food" value="North Indian">
+        <label for="food2">North Indian</label>
+        <input type="checkbox" id="food3" name="food" value="Chinese">
+        <label for="food3">Chinese</label>
+        <input type="checkbox" id="food4" name="food" value="Arabian">
+        <label for="food4">Arabian</label>
+        <input type="checkbox" id="food5" name="food" value="Japanese">
+        <label for="food5">Japanese</label><br><br>
+        <p id="description">State :</p>
+        <input type="text" id="state" placeholder="Enter State"><br><br>
+        <p id="description">Country :</p>
+        <input type="text" id="country" placeholder="Enter Country"><br><br>
+        <button class="btn btn-primary" id="submit">Submit</button>
+    </form><br><br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+
+</html>

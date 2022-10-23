@@ -1,0 +1,51 @@
+#title{
+    text-align: center;
+}
+
+#form{
+    margin: 0 30%;
+    border: 1px dashed black;
+    padding: 20px;
+}
+#first-name,#last-name,#pincode,#state,#country{
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 250px;
+}
+
+label{
+    margin-right: 15px;
+}
+#address{
+    width: auto;
+}
+
+button{
+    padding: 6px 40px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    margin-left: 70%;
+}
+button:hover{
+    background-color: white;
+    color: blue;
+}
+th,tr,td{
+    margin: 0;
+    width: auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+.table{
+    margin: 15%;
+    border-spacing: 0;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
